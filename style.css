@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: absolute;
+}
+
+span {
+    color: rgba(125, 219, 166, 1);
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    position: fixed;
+}
+
+.nav {
+    margin-top: 1%;
+}
+
+nav img {
+    width: 18%;
+    height: 12%;
+    margin: 1% 0 0 6%;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    margin-left: 55%;
+}
+
+.dropdown h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20%;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.toggle-btn {
+    width: 40px;
+    margin-left: 85%;
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+
+.toggle-btn span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    color: black;
+}
+
+/* first div */
+
+.one {
+    background-image: url(./images/fader-bg.png);
+    width: 100%;
+    height: 700px;
+    margin-top: 7%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.onehead {
+    font-size: 118px;
+    Line-height: 165.72px;
+    margin-left: 10%;
+}
+
+#oneimage {
+    display: none;
+    margin-right:100px;
+    
+}
+
+.button {
+    width: 35%;
+    height: 90px;
+    margin-left: 10%;
+    border-radius: 50px;
+    border-bottom: rgb(244, 239, 239) solid;
+    border-right: rgb(244, 239, 239) solid;
+}
+
+.button #know {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.oneimage {
+    margin-right: 10%;
+    width: 95%;
+    height: 50%;
+    margin-top: 25%;
+
+}
+
+/* second div */
+.two {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.two1 h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.two1 p {
+    font-size: 28px;
+    font-weight: 400px;
+    color: rgba(103, 103, 103, 1);
+    width: 87%;
+    margin-left: 6.5%;
+    margin-top: 1%;
+}
+
+/* second sub div */
+.two2 {
+    text-align: center;
+}
+
+.two2 .row {
+    width: 85%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.two3 {
+    border: 5px solid rgb(177, 176, 176);
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.two3 img {
+    margin-top: 25%;
+    width: 80%;
+}
+
+hr {
+    width: 90%;
+    margin-top: 80px;
+
+}
+.hr{
+    width: 85%; height: 1.5px; background-color: rgb(185, 181, 181); margin-top: 10%; margin-left: 7%;
+}
+
+.secondfourth{
+    display: none;
+}
+
+/* third div */
+.three h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+#image1{
+    display: none;
+}
+#flex{
+    display: flex;
+}
+
+.three p {
+    font-size: 43px;
+    color: rgba(103, 103, 103, 1);
+    margin-left: 11.5%;
+}
+
+.three1 #image2 {
+    width: 650px;
+    height: 600px;
+    margin-top: 15%;
+    margin-right: 15px;
+}
+#image4{
+    display: none;
+}
+
+/* fourth div */
+.fourth {
+    margin-top: 5%;
+    display: flex;
+}
+
+/* fifith div */
+.boygirl{
+    display: none;
+}
+
+/* sixth div */
+.Goalphin {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+@media all and (max-width:950px) {
+    .dropdown {
+        font-size: 10px;
+        display: none;
+        width: 50%;
+        border-top: 1px solid;
+        text-align: center;
+        background-color: lightgray;
+        height: 150px;
+    }
+
+    .dropdown.show {
+        display: block;
+    }
+
+    .toggle-btn i {
+        margin-bottom: 5%;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .dropdown h3 {
+        font-size: 15px;
+    }
+
+    .dropdown div {
+        display: none;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    .Support {
+        margin-left: 45%;
+        margin-top: 7%;
+    }
+
+    #search {
+        margin-top: 10%;
+    }
+
+    .Support h3 {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+
+
+    /* first div */
+
+    .one {
+        height: 500px;
+        margin-top: 15%;
+        position: absolute;
+    }
+
+    .onehead {
+        font-size: 35px;
+        margin-left: 12%;
+        line-height: 150%;
+        width: 300px;
+        margin-top: 2%;
+    }
+
+    .button {
+        width: 30%;
+        height: 20%;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .button #know{
+        font-size: 20px;
+    }
+    .oneimage {
+        display: none;
+    }
+
+    #oneimage {
+        display: block;
+        width: 500px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    #oneimage1 {
+        display: block;
+        width: 70%;
+        margin-left: 1%;
+    }
+
+    /* second div */
+
+    .two {
+        margin-top: 140%;
+        text-align: center;
+        width: 75%;
+    }
+    .two1{
+        margin-left: 1%;
+        text-align: center;
+        padding-left: 0%;
+
+    }
+    .two1 h1{
+        font-size: 30px;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .two1 p{
+        font-size: 15px;
+        margin-top: 1%;
+    }
+
+    /* <!-- second sub div --> */
+
+    .two2{
+        text-align: center;
+        width: 120%;
+        margin-top: 1px;
+    }
+    .two2 .row{
+        margin-left: 2%;
+        margin-top: 0;
+    }
+    .two3{
+        border: 2px solid rgb(177, 176, 176);
+        height: max-content;
+        width: 67%;
+    }
+    .two3 img {
+        margin: 5%;
+        width: 50%;
+    } 
+    .text-start{
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+    #h1{
+        margin-left: 16%;
+    }
+    #h2{
+        margin-left: 300%;
+        text-align: center;
+    }
+    #h3{
+        margin-left: 50px;
+    }
+    #para{
+        margin-right: 10%;
+        margin-left: 1%;
+        margin-top: 0;
+        padding: 0;
+        width:70%;
+    }
+    .hr{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 1px;
+    }
+    
+/* third div */
+.three1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.three p {
+    font-size: 20px;
+    color: rgba(103, 103, 103, 1);
+    margin-left: 1.5%;
+    width: 70%;
+    text-align: center;
+}
+.three p img{
+    width: 30px;
+}
+.three h1{
+    font-size: 38px;
+}
+.three{
+    display: block;
+}
+#flex{
+    display: block;
+}
+.three1{
+    display: none;
+}
+#image1{
+    display: block;
+    
+}
+#image3{
+    display: none;
+}
+#image4{
+    display: block;
+    margin-left: 20%;
+    margin-top: 40%;
+}
+
+/* fourth div */
+.fourth{
+    display: none;
+}
+#bootcamp{
+    margin-left: 1%;
+    width: 20%;
+}
+#thr{
+    display: none;
+    margin-top: 0;
+}
+.secondfourth{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.secondfourth h1{
+    font-size: 38px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.secondfourth #hat{
+    width: 500px;
+    height: 200px;
+}
+.secondfourth p{
+    font-size: 20px;
+    width: 40%;
+}
+.imgs{
+    width: 30px;
+    height: 30px;
+}
+
+/* fifth div */
+.disp{
+    display: block;
+}
+
+.Goalphin{
+    display: none;
+}
+
+/* footer */
+.footer{
+    display: block;
+    height: max-content;
+    
+}
+#foot{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.foot p{
+    font-size: 20px;
+}
+.footerlast p{
+    font-size: 10px;
+    margin-left: 1px;
+    width: 100%;
+}
+footer #innerfooter{
+    font-size: 10px;
+}
+
+footer img{
+    width: 50px;
+    height: 30px;
+}
+#footimg{
+    width: 20px;
+    height: 20px;
+}
+.fo{
+    width: 80%;
+}
+.down{
+width: 10px;
+height: 10px;
+}
+.footerlast{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#ms a{
+    font-size: 15px;
+}
+}
+
+/* footer */
+.footerlogo {
+    margin-top:150px ;
+    align-items: center;
+  width: 500px;
+  margin-left: 500px;
+}
+footer{
+    margin-top: 70px;
+    background-color: #EEEEEE;
+    ;
+}
+
+@media only screen and (max-width: 380px) {
+    footer{
+        margin-top: 50px;
+    }
+    .footerlogo{
+        margin-left: 55px;
+        width: 250px;
+        margin-top: 600px;
+    }
+    .Goalphin-text-footer{
+        width: 150px;
+        
+    }
+}
